@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Design tokens — Artists at Core Films
+   Palette: broadcast black + warm bone paper + tally-light red (the REC lamp).
+   Type: Archivo (variable width: condensed for titles, normal for text),
+         Newsreader italic (newsroom serif accents), Azeret Mono (timecode labels).
+   ========================================================================== */
+:root {
+  --ink: #0d0c0b;
+  --ink-2: #151412;
+  --ink-3: #1e1c19;
+  --ink-4: #2a2724;
+  --bone: #f1ece3;
+  --bone-2: #e5ded1;
+  --bone-3: #d6cdbd;
+  --stone: #a59e92;
+  --stone-dark: #5d574f;
+  --rec: #ff4126;
+  --rec-deep: #e02d14;
+  --wa: #25d366;
+
+  --font-sans: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Azeret Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* Fluid type scale */
+  --fs-mega: clamp(3.6rem, 13.2vw, 15.5rem);
+  --fs-h1: clamp(3rem, 8.4vw, 8.6rem);
+  --fs-h2: clamp(2.5rem, 5.6vw, 5.8rem);
+  --fs-h3: clamp(1.45rem, 2.1vw, 2.2rem);
+  --fs-statement: clamp(1.55rem, 3.3vw, 3.4rem);
+  --fs-lead: clamp(1.08rem, 1.35vw, 1.35rem);
+  --fs-body: clamp(1rem, 0.95rem + 0.2vw, 1.0625rem);
+  --fs-small: 0.875rem;
+  --fs-label: 0.75rem;
+
+  /* Width axis for titles (Archivo variable) */
+  --stretch-title: 72%;
+  --stretch-sub: 88%;
+
+  /* Spacing + layout: content spans ~90% of the viewport, capped on very large screens */
+  --gutter: clamp(1.25rem, 4.6vw, 5.5rem);
+  --maxw: 1760px;
+  --section-y: clamp(5rem, 11vw, 10.5rem);
+  --header-h: 76px;
+
+  --radius-s: 4px;
+  --radius-m: 10px;
+  --radius-l: 18px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 0.25s;
+  --dur: 0.5s;
+
+  --shadow-lift: 0 30px 60px -30px rgba(0, 0, 0, 0.55);
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --header-h: 66px;
+  }
+}
+
+/* Section themes */
+[data-theme='ink'] { --bg: var(--ink); --fg: var(--bone); --muted: var(--stone); --line: rgba(241, 236, 227, 0.14); --surface: var(--ink-3); }
+[data-theme='ink-2'] { --bg: var(--ink-2); --fg: var(--bone); --muted: var(--stone); --line: rgba(241, 236, 227, 0.14); --surface: var(--ink-3); }
+[data-theme='bone'] { --bg: var(--bone); --fg: var(--ink); --muted: var(--stone-dark); --line: rgba(13, 12, 11, 0.16); --surface: var(--bone-2); }
+[data-theme='rec'] { --bg: var(--rec); --fg: var(--ink); --muted: rgba(13, 12, 11, 0.72); --line: rgba(13, 12, 11, 0.25); --surface: var(--rec-deep); }

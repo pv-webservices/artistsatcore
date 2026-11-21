@@ -1,0 +1,1057 @@
+{
+ "1-Finance.png": {
+  "slug": "1-finance-p",
+  "w": 320,
+  "h": 369,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "AbInBev.png": {
+  "slug": "abinbev-p",
+  "w": 320,
+  "h": 58,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "AC-1.jpeg": {
+  "slug": "ac-1-e",
+  "w": 1203,
+  "h": 800,
+  "widths": [
+   480,
+   960,
+   1203
+  ]
+ },
+ "AC-2.jpeg": {
+  "slug": "ac-2-e",
+  "w": 750,
+  "h": 421,
+  "widths": [
+   480,
+   750
+  ]
+ },
+ "AC-3.jpeg": {
+  "slug": "ac-3-e",
+  "w": 830,
+  "h": 622,
+  "widths": [
+   480,
+   830
+  ]
+ },
+ "AC-4.jpeg": {
+  "slug": "ac-4-e",
+  "w": 1200,
+  "h": 800,
+  "widths": [
+   480,
+   960,
+   1200
+  ]
+ },
+ "AC-5.jpeg": {
+  "slug": "ac-5-e",
+  "w": 1440,
+  "h": 736,
+  "widths": [
+   480,
+   960,
+   1440
+  ]
+ },
+ "ai-hybrid": {
+  "slug": "ai-hybrid-p",
+  "w": 1536,
+  "h": 1024,
+  "widths": [
+   640,
+   1024,
+   1536
+  ]
+ },
+ "ai-studio": {
+  "slug": "ai-studio-p",
+  "w": 1536,
+  "h": 1024,
+  "widths": [
+   640,
+   1024,
+   1536
+  ]
+ },
+ "Airtel.png": {
+  "slug": "airtel-p",
+  "w": 320,
+  "h": 322,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "American-Express.png": {
+  "slug": "american-express-p",
+  "w": 320,
+  "h": 105,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "AU.png": {
+  "slug": "au-p",
+  "w": 320,
+  "h": 151,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Beyond-Duty.png": {
+  "slug": "beyond-duty-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Beyond-the-Call-of-Duty.png": {
+  "slug": "beyond-the-call-of-duty-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Bill-Gates.png": {
+  "slug": "bill-gates-p",
+  "w": 1600,
+  "h": 764,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "BillMelinda.png": {
+  "slug": "billmelinda-p",
+  "w": 320,
+  "h": 65,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Brookfield-Properties-in-India.png": {
+  "slug": "brookfield-properties-in-india-p",
+  "w": 1600,
+  "h": 714,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "BrookfieldProperties.png": {
+  "slug": "brookfieldproperties-p",
+  "w": 320,
+  "h": 143,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "BTS-1.jpeg": {
+  "slug": "bts-1-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-1.jpg": {
+  "slug": "bts-1",
+  "w": 1280,
+  "h": 678,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-1.png": {
+  "slug": "bts-1-p",
+  "w": 1442,
+  "h": 1040,
+  "widths": [
+   480,
+   960,
+   1442
+  ]
+ },
+ "BTS-10.jpeg": {
+  "slug": "bts-10-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-10.jpg": {
+  "slug": "bts-10",
+  "w": 768,
+  "h": 960,
+  "widths": [
+   480,
+   768
+  ]
+ },
+ "BTS-10.png": {
+  "slug": "bts-10-p",
+  "w": 1600,
+  "h": 915,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-11.jpeg": {
+  "slug": "bts-11-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-11.jpg": {
+  "slug": "bts-11",
+  "w": 960,
+  "h": 508,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "BTS-11.png": {
+  "slug": "bts-11-p",
+  "w": 1600,
+  "h": 1063,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-12-A.jpg": {
+  "slug": "bts-12-a",
+  "w": 1244,
+  "h": 1247,
+  "widths": [
+   480,
+   960,
+   1244
+  ]
+ },
+ "BTS-12.jpeg": {
+  "slug": "bts-12-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-12.jpg": {
+  "slug": "bts-12",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-13.jpg": {
+  "slug": "bts-13",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-13.png": {
+  "slug": "bts-13-p",
+  "w": 1600,
+  "h": 1604,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-14-1.jpg": {
+  "slug": "bts-14-1",
+  "w": 1600,
+  "h": 926,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-14.jpg": {
+  "slug": "bts-14",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-15.jpg": {
+  "slug": "bts-15",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-16.jpg": {
+  "slug": "bts-16",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-17.jpg": {
+  "slug": "bts-17",
+  "w": 1179,
+  "h": 1271,
+  "widths": [
+   480,
+   960,
+   1179
+  ]
+ },
+ "BTS-18.jpg": {
+  "slug": "bts-18",
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-19.jpg": {
+  "slug": "bts-19",
+  "w": 1280,
+  "h": 710,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-2.jpeg": {
+  "slug": "bts-2-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-2.jpg": {
+  "slug": "bts-2",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-2.png": {
+  "slug": "bts-2-p",
+  "w": 1600,
+  "h": 1197,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-20-scaled.jpg": {
+  "slug": "bts-20-scaled",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-21-scaled.jpg": {
+  "slug": "bts-21-scaled",
+  "w": 1600,
+  "h": 2133,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-22.jpg": {
+  "slug": "bts-22",
+  "w": 1536,
+  "h": 2048,
+  "widths": [
+   480,
+   960,
+   1536
+  ]
+ },
+ "BTS-23.jpg": {
+  "slug": "bts-23",
+  "w": 1536,
+  "h": 2048,
+  "widths": [
+   480,
+   960,
+   1536
+  ]
+ },
+ "BTS-24.jpg": {
+  "slug": "bts-24",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-25-scaled.jpg": {
+  "slug": "bts-25-scaled",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-26-scaled.jpg": {
+  "slug": "bts-26-scaled",
+  "w": 1600,
+  "h": 2133,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-27-scaled.jpg": {
+  "slug": "bts-27-scaled",
+  "w": 1600,
+  "h": 2133,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-28-scaled.jpg": {
+  "slug": "bts-28-scaled",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-29-scaled.jpg": {
+  "slug": "bts-29-scaled",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-3.jpeg": {
+  "slug": "bts-3-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-3.jpg": {
+  "slug": "bts-3",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-3.png": {
+  "slug": "bts-3-p",
+  "w": 1600,
+  "h": 660,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-30-scaled.jpg": {
+  "slug": "bts-30-scaled",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-31-scaled.jpg": {
+  "slug": "bts-31-scaled",
+  "w": 1600,
+  "h": 2133,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-33.jpg": {
+  "slug": "bts-33",
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-4.jpeg": {
+  "slug": "bts-4-e",
+  "w": 1536,
+  "h": 2048,
+  "widths": [
+   480,
+   960,
+   1536
+  ]
+ },
+ "BTS-4.jpg": {
+  "slug": "bts-4",
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-4.png": {
+  "slug": "bts-4-p",
+  "w": 828,
+  "h": 1426,
+  "widths": [
+   480,
+   828
+  ]
+ },
+ "BTS-5.jpeg": {
+  "slug": "bts-5-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-5.jpg": {
+  "slug": "bts-5",
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-5.png": {
+  "slug": "bts-5-p",
+  "w": 828,
+  "h": 1071,
+  "widths": [
+   480,
+   828
+  ]
+ },
+ "BTS-6.jpeg": {
+  "slug": "bts-6-e",
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-6.jpg": {
+  "slug": "bts-6",
+  "w": 1280,
+  "h": 577,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-6.png": {
+  "slug": "bts-6-p",
+  "w": 828,
+  "h": 1447,
+  "widths": [
+   480,
+   828
+  ]
+ },
+ "BTS-7.jpeg": {
+  "slug": "bts-7-e",
+  "w": 1536,
+  "h": 2048,
+  "widths": [
+   480,
+   960,
+   1536
+  ]
+ },
+ "BTS-7.jpg": {
+  "slug": "bts-7",
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960,
+   1280
+  ]
+ },
+ "BTS-7.png": {
+  "slug": "bts-7-p",
+  "w": 828,
+  "h": 477,
+  "widths": [
+   480,
+   828
+  ]
+ },
+ "BTS-8.jpeg": {
+  "slug": "bts-8-e",
+  "w": 1536,
+  "h": 2048,
+  "widths": [
+   480,
+   960,
+   1536
+  ]
+ },
+ "BTS-8.jpg": {
+  "slug": "bts-8",
+  "w": 960,
+  "h": 720,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "BTS-8.png": {
+  "slug": "bts-8-p",
+  "w": 1600,
+  "h": 1597,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "BTS-9.jpeg": {
+  "slug": "bts-9-e",
+  "w": 1536,
+  "h": 2048,
+  "widths": [
+   480,
+   960,
+   1536
+  ]
+ },
+ "BTS-9.jpg": {
+  "slug": "bts-9",
+  "w": 960,
+  "h": 534,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "BTS-9.png": {
+  "slug": "bts-9-p",
+  "w": 1600,
+  "h": 799,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "DLF-Emporio.png": {
+  "slug": "dlf-emporio-p",
+  "w": 1600,
+  "h": 813,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "DLF.png": {
+  "slug": "dlf-p",
+  "w": 320,
+  "h": 112,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Gazi-Khan-Barna-1.png": {
+  "slug": "gazi-khan-barna-1-p",
+  "w": 1600,
+  "h": 708,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Gazi-Khan-Barna.png": {
+  "slug": "gazi-khan-barna-p",
+  "w": 1600,
+  "h": 718,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Geetha-Saleesh-Hyundai-Film.png": {
+  "slug": "geetha-saleesh-hyundai-film-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Geetha-Saleesh-Samarth-by-Hyundai.png": {
+  "slug": "geetha-saleesh-samarth-by-hyundai-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Hakuhodo.png": {
+  "slug": "hakuhodo-p",
+  "w": 320,
+  "h": 41,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Hyundai.png": {
+  "slug": "hyundai-p",
+  "w": 320,
+  "h": 186,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Matrix.png": {
+  "slug": "matrix-p",
+  "w": 320,
+  "h": 119,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "MicroSoft.png": {
+  "slug": "microsoft-p",
+  "w": 320,
+  "h": 69,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Ministry.png": {
+  "slug": "ministry-p",
+  "w": 320,
+  "h": 107,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Mutal-Funds-02.png": {
+  "slug": "mutal-funds-02-p",
+  "w": 320,
+  "h": 194,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Naukri-RMS-1.png": {
+  "slug": "naukri-rms-1-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Naukri-RMS.png": {
+  "slug": "naukri-rms-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Naukri.png": {
+  "slug": "naukri-p",
+  "w": 320,
+  "h": 60,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "NDTV.png": {
+  "slug": "ndtv-p",
+  "w": 320,
+  "h": 64,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Nestle-Educate-A-GirlChild.png": {
+  "slug": "nestle-educate-a-girlchild-p",
+  "w": 1600,
+  "h": 692,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Nestle.png": {
+  "slug": "nestle-p",
+  "w": 320,
+  "h": 320,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Network18.png": {
+  "slug": "network18-p",
+  "w": 320,
+  "h": 95,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "News18.png": {
+  "slug": "news18-p",
+  "w": 320,
+  "h": 139,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Samsung-Anushka-Menon.png": {
+  "slug": "samsung-anushka-menon-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "SII.png": {
+  "slug": "sii-p",
+  "w": 320,
+  "h": 320,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "svc-avatar": {
+  "slug": "svc-avatar-p",
+  "w": 1024,
+  "h": 1536,
+  "widths": [
+   640,
+   1024
+  ]
+ },
+ "svc-post": {
+  "slug": "svc-post-p",
+  "w": 1536,
+  "h": 1024,
+  "widths": [
+   640,
+   1024,
+   1536
+  ]
+ },
+ "svc-vr": {
+  "slug": "svc-vr-p",
+  "w": 1536,
+  "h": 1024,
+  "widths": [
+   640,
+   1024,
+   1536
+  ]
+ },
+ "Swacch-Bharat.png": {
+  "slug": "swacch-bharat-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "The-Strongest-Link.png": {
+  "slug": "the-strongest-link-p",
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Unicif.png": {
+  "slug": "unicif-p",
+  "w": 320,
+  "h": 77,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "UNP.png": {
+  "slug": "unp-p",
+  "w": 320,
+  "h": 73,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Viacom.png": {
+  "slug": "viacom-p",
+  "w": 320,
+  "h": 60,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Voot.png": {
+  "slug": "voot-p",
+  "w": 320,
+  "h": 111,
+  "widths": [
+   320
+  ],
+  "logo": true
+ },
+ "Westin-Brand-Film-1.png": {
+  "slug": "westin-brand-film-1-p",
+  "w": 1600,
+  "h": 836,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ "Westin-Brand-Film.png": {
+  "slug": "westin-brand-film-p",
+  "w": 1600,
+  "h": 836,
+  "widths": [
+   640,
+   1024,
+   1600
+  ]
+ }
+}
