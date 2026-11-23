@@ -23,7 +23,8 @@ export function homeHero() {
     (s, i) =>
       `<div class="hero__slide${i === 0 ? ' is-active' : ''}">${img(s.img, {
         alt: i === 0 ? 'Aerial still from the AU Small Finance Bank film by Artists at Core' : '',
-        sizes: '100vw', eager: i < 2, priority: i === 0, pos: s.pos || '',
+        // Phones crop these landscape stills to a tall frame, so they need the full-width file, not a 100vw pick.
+        sizes: '(max-width: 900px) 1600px, 100vw', eager: i < 2, priority: i === 0, pos: s.pos || '',
       })}</div>`,
   ).join('');
   const meta = HERO.map((s) => {
