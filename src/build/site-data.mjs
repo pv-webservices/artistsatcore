@@ -31,10 +31,9 @@ export const SITE = {
 };
 
 export const NAV = [
-  { label: 'Home', href: '/' },
-  { label: 'About', href: '/#aboutus' },
   { label: 'Work', href: '/our-work/' },
   { label: 'Services', href: '/services/', dropdown: true },
+  { label: 'About', href: '/#aboutus' },
   { label: 'AI Video', href: '/ai-video-production-gurgaon/' },
   { label: 'Gallery', href: '/gallery/' },
   { label: 'Contact', href: '/contact-us/' },

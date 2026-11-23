@@ -2,9 +2,7 @@
 import { SITE, NAV, SERVICES, FAQS } from './site-data.mjs';
 import { esc, ICONS, btn, socialIcon, pad } from './ui.mjs';
 
-const FONTS =
-  'https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,400..700' +
-  '&family=Newsreader:ital,opsz,wght@1,6..72,300..600&family=Azeret+Mono:wght@400;500&display=swap';
+const FONTS = 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300..800&display=swap';
 
 function localBusinessLd() {
   return {
@@ -49,7 +47,7 @@ export function head({ title, desc, path = '/', faq = false, noindex = false }) 
 <meta name="description" content="${esc(desc)}">
 ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" content="index, follow, max-image-preview:large">'}
 <link rel="canonical" href="${url}">
-<meta name="theme-color" content="#0d0c0b">
+<meta name="theme-color" content="#0a0a0a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${SITE.name}">
 <meta property="og:title" content="${esc(title)}">
@@ -62,14 +60,17 @@ ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" cont
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FONTS}">
-<style>html{background:#0d0c0b;color:#f1ece3;color-scheme:dark}body{margin:0;background:#0d0c0b}svg:not([width]){width:1em;height:1em}</style>
+<style>html{background:#0a0a0a;color:#f4f2ee;color-scheme:dark}body{margin:0;background:#0a0a0a}svg:not([width]){width:1em;height:1em}</style>
 <link rel="stylesheet" href="/src/styles/main.css">
-<script>document.documentElement.classList.add('js');setTimeout(function(){var h=document.documentElement;if(!h.classList.contains('is-ready'))h.classList.add('no-anim','is-ready')},4500);try{if(sessionStorage.getItem('aac-intro'))document.documentElement.classList.add('intro-seen')}catch(e){}</script>
+<script>document.documentElement.classList.add('js');setTimeout(function(){var h=document.documentElement;if(!h.classList.contains('is-ready'))h.classList.add('no-anim','is-ready')},4000);</script>
 <script type="application/ld+json">${JSON.stringify(ld.length === 1 ? ld[0] : ld)}</script>`;
 }
 
 const logo = (cls = '') =>
   `<a href="/" class="logo ${cls}" aria-label="Artists at Core Films — home"><img src="/media/logo.webp" width="360" height="205" alt="Artists at Core Films"></a>`;
+
+const wordmark = (cls = '') =>
+  `<a href="/" class="wordmark ${cls}" aria-label="Artists at Core Films — home"><span>Artists at Core</span></a>`;
 
 function servicesMenu() {
   return SERVICES.map(
@@ -81,15 +82,16 @@ function servicesMenu() {
 export function header({ current = '/' } = {}) {
   const isActive = (href) => (href === current ? ' aria-current="page"' : '');
   const desktop = NAV.map((n) => {
-    if (!n.dropdown) return `<li><a class="nav__link" href="${n.href}"${isActive(n.href)}><span>${n.label}</span></a></li>`;
+    if (!n.dropdown) return `<li><a class="nav__link" href="${n.href}"${isActive(n.href)}>${n.label}</a></li>`;
     return `<li class="nav__item--dd" data-dropdown>
       <div class="nav__dd-trigger">
-        <a class="nav__link" href="${n.href}"${isActive(n.href)}><span>${n.label}</span></a>
+        <a class="nav__link" href="${n.href}"${isActive(n.href)}>${n.label}</a>
         <button class="nav__chev" type="button" aria-expanded="false" aria-controls="dd-services" aria-label="Show services">${ICONS.chevron}</button>
       </div>
       <div class="dd" id="dd-services">
+        <p class="eyebrow eyebrow--plain">Our services</p>
         <ul class="dd__list">${servicesMenu()}</ul>
-        <a class="dd__all" href="/services/">All services ${ICONS.arrow}</a>
+        <a class="dd__all" href="/services/">All services ${ICONS.arrowUp}</a>
       </div>
     </li>`;
   }).join('');
@@ -114,10 +116,9 @@ export function header({ current = '/' } = {}) {
       <ul class="nav__list">${desktop}</ul>
     </nav>
     <div class="site-header__actions">
-      ${btn('Get a free quote', '/contact-us/', { variant: 'primary', cls: 'btn--sm site-header__cta' })}
+      ${btn('Start a project', '/contact-us/', { variant: 'outline', cls: 'btn--sm site-header__cta' })}
       <button class="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open menu" data-burger>
-        <span class="burger__lines" aria-hidden="true"><span></span><span></span></span>
-        <span class="burger__text">Menu</span>
+        <span class="burger__lines" aria-hidden="true"><span></span><span></span><span></span></span>
       </button>
     </div>
   </div>
@@ -130,7 +131,7 @@ export function header({ current = '/' } = {}) {
   </div>
   <nav aria-label="Mobile"><ul class="drawer__list">${mobile}</ul></nav>
   <div class="drawer__foot">
-    ${btn('Get a free quote', '/contact-us/', { variant: 'primary', cls: 'btn--block' })}
+    ${btn('Start a project', '/contact-us/', { variant: 'solid', cls: 'btn--block' })}
     <div class="drawer__contact">
       ${SITE.phones.map((p) => `<a href="${p.href}">${ICONS.phone}<span>${p.label}</span></a>`).join('')}
       <a href="mailto:${SITE.emails[0]}">${ICONS.mail}<span>${SITE.emails[0]}</span></a>
@@ -142,41 +143,33 @@ export function header({ current = '/' } = {}) {
 
 export function footer() {
   const navLinks = NAV.map((n) => `<li><a href="${n.href}">${n.label}</a></li>`).join('');
-  return `<footer class="site-footer" data-theme="ink">
+  return `<footer class="site-footer">
   <div class="wrap site-footer__top">
     <div class="site-footer__brand">
       <img src="/media/logo.webp" width="360" height="205" alt="Artists at Core Films" class="site-footer__logo" loading="lazy">
-      <p class="site-footer__tag">You narrate. <em>We create.</em></p>
+      <p class="site-footer__tag">You narrate. <span class="dim">We create.</span></p>
       <p class="site-footer__blurb">Video production house in Gurgaon, serving brands and agencies across Delhi NCR and India.</p>
     </div>
     <div class="site-footer__cols">
-      <div><h2 class="site-footer__h">Find us</h2><address><a href="${SITE.address.map}" target="_blank" rel="noopener">${SITE.address.line},<br>${SITE.address.city} ${SITE.address.postcode}</a></address></div>
-      <div><h2 class="site-footer__h">Speak to us</h2><ul>${SITE.phones.map((p) => `<li><a href="${p.href}">${p.label}</a></li>`).join('')}</ul></div>
-      <div><h2 class="site-footer__h">Write to us</h2><ul>${SITE.emails.map((e) => `<li><a href="mailto:${e}">${e}</a></li>`).join('')}</ul></div>
-      <div><h2 class="site-footer__h">Explore</h2><ul class="site-footer__nav">${navLinks}</ul></div>
-      <div><h2 class="site-footer__h">Social</h2><ul>${SITE.social.map((s) => `<li><a href="${s.href}" target="_blank" rel="noopener">${s.label} ${ICONS.arrowUp}</a></li>`).join('')}</ul></div>
+      <div><h2 class="site-footer__h">Studio</h2><address><a href="${SITE.address.map}" target="_blank" rel="noopener">${SITE.address.line},<br>${SITE.address.city} ${SITE.address.postcode}</a></address></div>
+      <div><h2 class="site-footer__h">Call</h2><ul>${SITE.phones.map((p) => `<li><a href="${p.href}">${p.label}</a></li>`).join('')}</ul></div>
+      <div><h2 class="site-footer__h">Email</h2><ul>${SITE.emails.map((e) => `<li><a href="mailto:${e}">${e}</a></li>`).join('')}</ul></div>
     </div>
   </div>
-  <div class="site-footer__mark" aria-hidden="true"><span>Artists</span><span class="at">@</span><span>Core</span></div>
-  <div class="wrap site-footer__bottom">
-    <p>© 2026 Artists at Core Films</p>
-    <a href="#top" class="to-top" data-to-top>Back to top ${ICONS.arrowUp}</a>
+  <div class="wrap site-footer__bar">
+    ${wordmark('site-footer__wordmark')}
+    <ul class="site-footer__nav">${navLinks}</ul>
+    <div class="social">${SITE.social.map((s) => `<a href="${s.href}" target="_blank" rel="noopener" aria-label="${s.label}">${socialIcon(s.label)}</a>`).join('')}</div>
+  </div>
+  <div class="wrap site-footer__legal">
+    <p>© 2026 Artists at Core Films. All rights reserved.</p>
+    <a href="#top" class="to-top">Back to top ${ICONS.arrowUp}</a>
   </div>
 </footer>`;
 }
 
 export function globals() {
-  return `<a class="wa-fab" href="${SITE.whatsapp}" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">${ICONS.whatsapp}<span class="wa-fab__label">WhatsApp</span></a>
-<div class="loader" data-loader aria-hidden="true">
-  <div class="loader__leader">
-    <svg class="loader__ring" viewBox="0 0 200 200"><circle cx="100" cy="100" r="88"/><circle cx="100" cy="100" r="70"/><path d="M100 0v200M0 100h200"/></svg>
-    <div class="loader__sweep"></div>
-    <span class="loader__count" data-loader-count>3</span>
-  </div>
-  <p class="loader__meta"><span>A@C FILMS</span><span data-loader-tc>00:00:00:00</span></p>
-</div>
-<div class="curtain" data-curtain aria-hidden="true"><img src="/media/logo.webp" width="360" height="205" alt=""></div>
-<dialog class="vmodal" data-vmodal aria-label="Video player">
+  return `<dialog class="vmodal" data-vmodal aria-label="Video player">
   <button class="vmodal__close" type="button" data-vmodal-close aria-label="Close video">${ICONS.close}</button>
   <div class="vmodal__frame" data-vmodal-frame></div>
 </dialog>
@@ -186,6 +179,5 @@ export function globals() {
   <figure class="lightbox__fig"><img alt="" data-lb-img><figcaption data-lb-cap></figcaption></figure>
   <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next image">${ICONS.arrow}</button>
   <p class="lightbox__count" data-lb-count></p>
-</dialog>
-<div class="cursor" data-cursor-el aria-hidden="true"><span class="cursor__label" data-cursor-label></span></div>`;
+</dialog>`;
 }

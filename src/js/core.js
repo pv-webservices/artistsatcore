@@ -32,12 +32,16 @@ export function scrollToTarget(el, immediate = false) {
 export function initHeader() {
   const header = qs('[data-header]');
   if (!header) return;
-  const fab = qs('.wa-fab');
-  const hasHero = !!qs('[data-hero]');
+  let lastY = window.scrollY;
   const update = () => {
-    header.classList.toggle('is-scrolled', window.scrollY > 24);
-    // On the home page the WhatsApp button waits until the hero CTAs have scrolled away
-    if (fab && hasHero) fab.classList.toggle('is-tucked', window.scrollY < window.innerHeight * 0.5);
+    const y = window.scrollY;
+    header.classList.toggle('is-scrolled', y > 24);
+    // Tuck the header away while reading downwards; bring it back on any upward scroll
+    const dropdownOpen = !!qs('.nav__item--dd.is-open', header);
+    if (Math.abs(y - lastY) > 6) {
+      header.classList.toggle('is-hidden', y > lastY && y > window.innerHeight * 0.6 && !dropdownOpen);
+      lastY = y;
+    }
   };
   update();
   window.addEventListener('scroll', update, { passive: true });
